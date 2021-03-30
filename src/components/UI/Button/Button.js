@@ -1,4 +1,4 @@
-import Reqact from 'react';
+import React from 'react';
 import classes from './Button.css';
 
 const button = (props) => (
@@ -7,4 +7,4 @@ const button = (props) => (
         onClick={props.clicked}>{props.children}</button>
 );
 
-export default buttonl
+export default button;
